@@ -11,3 +11,10 @@ type command
 4- npx tsc
    -> Go and click dist folder some files are created by default
 5- node dist/index.js //for run ts 
+
+# Types 
+1- Type Inference 
+2- Type Annotation
+3- Type Union
+4- Type any
+5- Type Unknown
