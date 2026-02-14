@@ -18,3 +18,7 @@ type command
 3- Type Union
 4- Type any
 5- Type Unknown
+6- Type narrowing and Type Guard
+
+
+# cntr + shift + L to select all same word

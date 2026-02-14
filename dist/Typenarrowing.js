@@ -28,13 +28,19 @@ class cat {
         console.log("it is a dog");
     }
 }
-function animals(params) {
-    if (params instanceof dog) {
-        params.bark();
+function animals(anim) {
+    if (anim instanceof dog) {
+        anim.bark();
     }
     else {
-        params.xyz();
+        anim.xyz();
     }
 }
 console.log(animals);
+//type guard
+//instanceof
+//typeof
+//in
+//type narrowing
+// result 
 //# sourceMappingURL=Typenarrowing.js.map

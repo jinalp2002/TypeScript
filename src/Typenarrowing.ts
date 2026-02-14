@@ -38,12 +38,12 @@ class cat{
   }
 }
 
-function animals(params:dog | cat) {
-    if(params instanceof dog){
-      params.bark()
+function animals(anim:dog | cat) {
+    if(anim instanceof dog){
+      anim.bark()
       
     }else{
-      params.xyz()
+      anim.xyz()
     }
 }
 console.log(animals);
