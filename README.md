@@ -27,3 +27,6 @@ type command
 
 
 # cntr + shift + L to select all same word
+# ctrl + ` to open terminal 
+# ctrl + shift + P to refresh the vs page
+# alt + z word wrap
