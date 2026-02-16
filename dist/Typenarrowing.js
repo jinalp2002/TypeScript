@@ -1,46 +1,16 @@
 "use strict";
-//example 1
+//Type narrowing is used for check data type 
+// such as  formvalidation
+// api request 
+//input data
 Object.defineProperty(exports, "__esModule", { value: true });
-function product(category) {
-    if (typeof category === "number") {
-        console.log(`Your product is in number ${category.toFixed} `);
+function details(persons) {
+    if ("role" in persons) {
+        console.log({ name: "Jinal", role: "Manager" });
     }
     else {
-        console.log(`Your product is in string ${category.charAt}`);
+        console.log({ name: "Raj", email: "raj@gmail.com" });
     }
 }
-// product(11);
-product("jinal");
-//Example 2  INSTANCE OF
-//return true false
-class Person {
-}
-const user = new Person();
-console.log(user instanceof Person); // true
-//console.log(user instanceof ); // true
-class dog {
-    bark() {
-        console.log("it is a dog");
-    }
-}
-class cat {
-    xyz() {
-        console.log("it is a dog");
-    }
-}
-function animals(anim) {
-    if (anim instanceof dog) {
-        anim.bark();
-    }
-    else {
-        anim.xyz();
-    }
-}
-console.log(animals);
-//type guard
-//instanceof
-//typeof
-//in
-//type narrowing
-// result 
+console.log(details);
 //# sourceMappingURL=Typenarrowing.js.map

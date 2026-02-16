@@ -1,5 +1,5 @@
 // ++++++++++++++++++++++++++++++ Interface +++++++++++++++++++++++++++
-// It creates atructure of objects and defines the type of properties
+// It creates structure of objects and defines the type of properties
 // It used only for object and class
 
 
@@ -45,3 +45,5 @@ class  students implements  user{
 const c1= new students();
 console.log(c1);
 
+
+ 

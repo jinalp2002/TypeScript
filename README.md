@@ -18,7 +18,12 @@ type command
 3- Type Union
 4- Type any
 5- Type Unknown
-6- Type narrowing and Type Guard
+6- Type narrowing and Type Guard(Instanceof , typeof , In)
+7- Interface (Extend , Implements)
+8- Interface vs Type 
+9- type
+10- Array, Tuple, Enums
+11- Function
 
 
 # cntr + shift + L to select all same word
