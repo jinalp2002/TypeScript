@@ -5,18 +5,18 @@
 
 //example 1
 
-// type Category = string | number; // type create Category is a type and string number is value of type
+type Category = string | number; // type create Category is a type and string number is value of type
 
-// function product(category: Category) {
-//   if (typeof category === "number") {
-//     console.log(`Your product is in number ${category.toFixed} `);
-//   } else {
-//     console.log(`Your product is in string ${category.charAt}`);
-//   }
-// }
+function product(category: Category) {
+  if (typeof category === "number") {
+    console.log(`Your product is in number ${category.toFixed} `);
+  } else {
+    console.log(`Your product is in string ${category.charAt}`);
+  }
+}
 
-// product(11);
-//product("jinal");
+product(11);
+product("jinal");
 
 
 
@@ -27,7 +27,7 @@
 // const user = new Person();
 
 // console.log(user instanceof Person); // true
-//console.log(user instanceof ); // true
+// console.log(user instanceof ); // true
 
 
 // class dog{
@@ -70,7 +70,7 @@
 
 
 
-//Example 3:-
+//Example 3:- In
 
 type admin = {
   name : string;
