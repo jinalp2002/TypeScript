@@ -11,7 +11,7 @@ function product(category: Category) {
   if (typeof category === "number") {
     console.log(`Your product is in number ${category.toFixed} `);
   } else {
-    console.log(`Your product is in string ${category.charAt}`);
+    console.log(`Your product is in string ${category.toLocaleUpperCase}`);
   }
 }
 

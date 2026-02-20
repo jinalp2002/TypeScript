@@ -19,6 +19,9 @@ num = 11,
     num = true;
 //num.touppercase()  // no error now (realrun time error may be occur)  
 //++++++++++++++++++++++++++ Unknown ++++++++++++++++++++++
+// Unknow better hai any se 
+// unknow check karta hai pehele type then use karta hai
+//unknow use narrowing to check type 
 let newnum;
 newnum = "jinal";
 if (typeof newnum === "string") {

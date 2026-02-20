@@ -4,13 +4,24 @@
 // api request 
 //input data
 Object.defineProperty(exports, "__esModule", { value: true });
-function details(persons) {
-    if ("role" in persons) {
-        console.log({ name: "Jinal", role: "Manager" });
+function product(category) {
+    if (typeof category === "number") {
+        console.log(`Your product is in number ${category.toFixed} `);
     }
     else {
-        console.log({ name: "Raj", email: "raj@gmail.com" });
+        console.log(`Your product is in string ${category.charAt}`);
     }
 }
-console.log(details);
+product(11);
+product("jinal");
+function details(persons) {
+    if ("role" in persons) {
+        console.log("admin");
+    }
+    else {
+        console.log("user");
+    }
+}
+//details({ name: "Jinal", role: "Manager" });
+details({ name: "Raj", email: "raj@gmail.com" });
 //# sourceMappingURL=Typenarrowing.js.map

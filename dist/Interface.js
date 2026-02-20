@@ -1,6 +1,6 @@
 "use strict";
 // ++++++++++++++++++++++++++++++ Interface +++++++++++++++++++++++++++
-// It creates atructure of objects and defines the type of properties
+// It creates structure of objects and defines the type of properties
 // It used only for object and class
 Object.defineProperty(exports, "__esModule", { value: true });
 const c2 = {
